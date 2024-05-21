@@ -1,0 +1,9 @@
+const person = {
+  name: "Maisha",
+  age: 28,
+  gender: "female",
+};
+
+for (const property in person) {
+  console.log(`${property} : ${person[property]} `);
+}
